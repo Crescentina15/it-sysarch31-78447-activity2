@@ -1,14 +1,12 @@
-
-
-function Card(){
+/* eslint-disable react/prop-types */
+import "./index.css"
+export default function Card({ student }){
     return(
-        <div className = "card">
-            <img src = "https://www.astronomy.com/wp-content/uploads/sites/2/2023/09/underfullmoon.jpeg"    
-            width="200" 
-            height="200"alt = "Profile Picture"></img>
-            <h2>Moon</h2>
-            <p>secretoo</p>
+        <div className="card">
+                <img className="card-image" src={student.image} alt="" width="300" height="300"/>
+            <h2 className="card-title">{student.name}</h2>
+            <p className="card-text">{student.email}</p>
         </div>
-    );
+       )
 }
-export default Card
+

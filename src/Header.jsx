@@ -2,13 +2,14 @@
 function Header(){
     return(
         <header>
-            <h1>Crescentina Ann Remedio</h1>
+
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                <li className ="nav1"> Crescentina </li>
+                    <li className="nav"><a href="#">Home</a></li>
+                    <li  className="nav"><a href="#">About</a></li>
+                    <li  className="nav"><a href="#">Services</a></li>
+                    <li  className="nav"><a href="#">Contact</a></li>
                 </ul>
             </nav>
             <hr></hr>

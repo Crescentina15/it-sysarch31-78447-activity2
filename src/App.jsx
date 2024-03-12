@@ -1,19 +1,17 @@
 import Header from './Header'
 import Footer from './Footer'
-import Card from  './Card'
+import Students from "./Students.jsx";
 
 function App() {
   return(
-    <>
-    
-    <Header/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/> 
-    <Footer/>
-    </>
-  )
+    <div className="app-container">
+      <Header />
+      <div className="content">
+        <Students/>
+      </div>
+      <Footer />
+    </div>
+  );
   
 }
 
